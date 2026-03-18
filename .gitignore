@@ -1,0 +1,16 @@
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Agent memory (project-specific, not shared)
+.claude/agent-memory/

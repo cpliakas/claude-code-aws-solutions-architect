@@ -1,6 +1,6 @@
 # aws-solutions-architect
 
-A Claude Code plugin providing AWS Solutions Architect agents for cloud architecture guidance, cost optimization, and security review. Bundles the AWS IaC MCP server for CloudFormation validation, CDK documentation, and compliance checking.
+A Claude Code plugin providing an AWS Solutions Architect agent for cloud architecture guidance, service selection, cost optimization, security review, and Well-Architected reviews. Bundles the AWS IaC MCP server for CloudFormation validation, CDK documentation, and compliance checking.
 
 ## Authoring Conventions
 
@@ -15,13 +15,7 @@ A Claude Code plugin providing AWS Solutions Architect agents for cloud architec
 - Descriptions must include trigger phrases AND delegation relationships
 - All agents use `memory: project` to learn per-project
 - Agent names use kebab-case
-- Agent colors are assigned by role to ensure visual distinction in the Claude Code UI:
-
-  | Agent | Color | Rationale |
-  |-------|-------|-----------|
-  | solutions-architect | blue | Strategic authority, long-term thinking |
-  | cost-optimizer | yellow | Planning and prioritization, FinOps energy |
-  | security-reviewer | red | Quality gates, risk signals |
+- The single agent uses `yellow` as its color
 
 ### Skills
 
@@ -57,9 +51,7 @@ Agents should use these tools proactively when the user's question involves IaC 
 
 ```
 .claude/agent-memory/aws-solutions-architect/PROJECT.md
-.claude/agent-memory/aws-solutions-architect-solutions-architect/MEMORY.md
-.claude/agent-memory/aws-solutions-architect-cost-optimizer/MEMORY.md
-.claude/agent-memory/aws-solutions-architect-security-reviewer/MEMORY.md
+.claude/agent-memory/aws-solutions-architect-aws-solutions-architect/MEMORY.md
 ```
 
 ### Plugin Versioning

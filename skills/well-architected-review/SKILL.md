@@ -29,7 +29,7 @@ Before starting the review, gather relevant context:
 1. Read shared project context from
    `.claude/agent-memory/aws-solutions-architect/PROJECT.md` if it exists
 2. Read the solutions-architect's project memory from
-   `.claude/agent-memory/aws-solutions-architect-solutions-architect/MEMORY.md`
+   `.claude/agent-memory/aws-solutions-architect-aws-solutions-architect/MEMORY.md`
    if it exists
 3. Scan the project for CloudFormation templates, CDK code, or Terraform files
    related to the workload:
@@ -202,8 +202,9 @@ Compile findings into a structured report:
 
 Present the report and suggest follow-up actions:
 
-- For high-severity security findings: "Consider a detailed security review
-  with the security-reviewer agent"
-- For cost concerns: "Run `/estimate-cost` to quantify optimization opportunities"
+- For high-severity security findings: "Ask the `aws-solutions-architect` agent
+  for a detailed security review of the affected resources"
+- For cost concerns: "Ask the `aws-solutions-architect` agent to estimate costs
+  for the affected services"
 - For architectural decisions surfaced: "Run `/write-adr` to document key
   decisions"

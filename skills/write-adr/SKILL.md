@@ -25,7 +25,7 @@ proceeding. Do not continue until a decision description is provided.
 ## Step 2 -- Determine Next ADR Number
 
 Check the solutions-architect's project memory
-(`.claude/agent-memory/aws-solutions-architect-solutions-architect/MEMORY.md`)
+(`.claude/agent-memory/aws-solutions-architect-aws-solutions-architect/MEMORY.md`)
 for a configured ADR directory path.
 
 If a directory is configured:
@@ -165,5 +165,5 @@ If no directory is configured, display the following in order:
 
    > To enable automatic filing, add an `adr_directory` entry to the
    > solutions-architect's project memory
-   > (`.claude/agent-memory/aws-solutions-architect-solutions-architect/MEMORY.md`)
+   > (`.claude/agent-memory/aws-solutions-architect-aws-solutions-architect/MEMORY.md`)
    > with the path where ADR documents should be stored.

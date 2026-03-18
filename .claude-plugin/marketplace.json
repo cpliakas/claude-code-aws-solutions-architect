@@ -7,7 +7,7 @@
     {
       "name": "aws-solutions-architect",
       "source": "./",
-      "description": "AWS Solutions Architect agents for cloud architecture guidance, cost optimization, and security review. Bundles the AWS IaC MCP server for CloudFormation validation, CDK docs, and compliance checking out of the box.",
+      "description": "AWS Solutions Architect agent for cloud architecture guidance, service selection, cost optimization, security review, and Well-Architected reviews. Bundles the AWS IaC MCP server for CloudFormation validation, CDK docs, and compliance checking out of the box.",
       "version": "0.1.0",
       "author": {
         "name": "Chris Pliakas"

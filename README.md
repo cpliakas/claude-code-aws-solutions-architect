@@ -21,7 +21,7 @@ A Claude Code plugin that provides an **AWS Solutions Architect agent** for clou
 
 ### Bundled MCP Server
 
-This plugin bundles the [AWS IaC MCP server](https://github.com/awslabs/mcp) (`@awslabs/aws-iac-mcp-server`), giving the agent access to:
+This plugin bundles the AWS IaC MCP server (installed as `awslabs.aws-iac-mcp-server` via `uvx`, registered in `.mcp.json` as `awslabs-aws-iac-mcp-server`), giving the agent access to:
 
 - **CloudFormation template validation** via cfn-lint
 - **Compliance checking** via cfn-guard

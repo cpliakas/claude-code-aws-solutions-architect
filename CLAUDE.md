@@ -15,7 +15,9 @@ A Claude Code plugin providing an AWS Solutions Architect agent for cloud archit
 - Descriptions must include trigger phrases AND delegation relationships
 - All agents use `memory: project` to learn per-project
 - Agent names use kebab-case
-- The single agent uses `yellow` as its color
+- The single agent uses `yellow` as its color (inherited from the source plugin where
+  `aws-solutions-architect` was yellow; blue was reserved for a separate strategic lead agent
+  that does not exist in this standalone plugin)
 
 ### Skills
 
@@ -34,7 +36,7 @@ A Claude Code plugin providing an AWS Solutions Architect agent for cloud archit
 
 ### MCP Server Usage
 
-This plugin bundles the `@awslabs/aws-iac-mcp-server` via `.mcp.json`. Agents should use the following MCP tools when relevant:
+This plugin bundles the `awslabs.aws-iac-mcp-server` package (registered in `.mcp.json` as `awslabs-aws-iac-mcp-server`) via `uvx`. Agents should use the following MCP tools when relevant:
 
 - `validate_cloudformation_template`: Validate CloudFormation template syntax and resource properties
 - `check_cloudformation_template_compliance`: Run cfn-guard compliance rules against templates

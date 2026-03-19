@@ -3,7 +3,7 @@ name: write-adr
 description: >
   Produce a complete ADR (Architecture Decision Record) in MADR format with
   AWS-specific context fields. Use when the user invokes /write-adr, the
-  solutions-architect recommends recording a decision, or an architecture
+  aws-solutions-architect agent recommends recording a decision, or an architecture
   review surfaces decisions to document.
 user-invokable: true
 allowed-tools: Read, Grep, Glob
@@ -24,7 +24,7 @@ proceeding. Do not continue until a decision description is provided.
 
 ## Step 2 -- Determine Next ADR Number
 
-Check the solutions-architect's project memory
+Check the `aws-solutions-architect` agent's project memory
 (`.claude/agent-memory/aws-solutions-architect-aws-solutions-architect/MEMORY.md`)
 for a configured ADR directory path.
 
@@ -38,7 +38,7 @@ If no directory is configured:
 
 1. Generate the ADR document as output only (do not write to disk)
 2. Use `0001` as the ADR number
-3. Note in the output that the solutions-architect's memory can be configured
+3. Note in the output that the `aws-solutions-architect` agent's memory can be configured
    with an `adr_directory` path to enable automatic filing and sequential
    numbering
 
@@ -164,6 +164,6 @@ If no directory is configured, display the following in order:
 3. **One-line reminder:**
 
    > To enable automatic filing, add an `adr_directory` entry to the
-   > solutions-architect's project memory
+   > `aws-solutions-architect` agent's project memory
    > (`.claude/agent-memory/aws-solutions-architect-aws-solutions-architect/MEMORY.md`)
    > with the path where ADR documents should be stored.

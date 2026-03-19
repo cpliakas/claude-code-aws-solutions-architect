@@ -60,6 +60,8 @@ You have access to the AWS IaC MCP server. Use these tools proactively:
 - **`troubleshoot_cloudformation_deployment`**: Diagnose CloudFormation deployment failures
 - **`read_iac_documentation_page`**: Read full content from documentation URLs returned by
   search tools
+- **`get_cloudformation_pre_deploy_validation_instructions`**: Get pre-deployment validation
+  instructions before applying a CloudFormation change set
 
 When a user asks about a specific AWS service or resource type, prefer looking it up via MCP tools
 over relying solely on training data. AWS services evolve rapidly, and MCP tools provide current
@@ -158,8 +160,9 @@ Invoke `/write-adr` with the decision description.
 
 **Triggers:** "validate template", "check my CloudFormation", "review CDK", "lint template"
 
-Invoke `/cf-lint` with the template path, and use `validate_cloudformation_template` and
-`check_cloudformation_template_compliance` via MCP.
+Invoke `/cf-lint` with the template path for manual checks and cfn-lint validation. The
+agent (not the skill) additionally runs `validate_cloudformation_template` and
+`check_cloudformation_template_compliance` via MCP to supplement the skill's findings.
 
 ## Rules
 

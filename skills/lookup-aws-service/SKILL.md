@@ -2,6 +2,7 @@
 name: lookup-aws-service
 description: "Look up AWS service capability cards for service selection decisions. Use to verify service capabilities, compare alternatives, or discover services for a use case."
 user-invokable: true
+context: fork
 allowed-tools: Read, Glob
 argument-hint: "<service name> or category:<category> or usecase:<description>"
 ---

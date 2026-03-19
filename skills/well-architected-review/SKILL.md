@@ -2,8 +2,8 @@
 name: well-architected-review
 description: >
   Run an AWS Well-Architected Framework review against a workload or component.
-  Use when the user invokes /well-architected-review, the solutions-architect
-  recommends a framework review, or the user asks about well-architected
+  Use when the user invokes /well-architected-review, the aws-solutions-architect
+  agent recommends a framework review, or the user asks about well-architected
   alignment.
 user-invokable: true
 allowed-tools: Read, Grep, Glob, Bash
@@ -28,7 +28,7 @@ Before starting the review, gather relevant context:
 
 1. Read shared project context from
    `.claude/agent-memory/aws-solutions-architect/PROJECT.md` if it exists
-2. Read the solutions-architect's project memory from
+2. Read the `aws-solutions-architect` agent's project memory from
    `.claude/agent-memory/aws-solutions-architect-aws-solutions-architect/MEMORY.md`
    if it exists
 3. Scan the project for CloudFormation templates, CDK code, or Terraform files

@@ -1,0 +1,1 @@
+We put our Lambda functions in a VPC so they can access our RDS database. Our monthly AWS bill is higher than expected and we noticed a significant NAT Gateway charge. We're processing about 100,000 Lambda invocations/month. What's causing this and how do we fix it?

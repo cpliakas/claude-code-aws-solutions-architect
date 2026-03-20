@@ -1,0 +1,1 @@
+We're building an e-commerce order tracking system. We have ~2,000 orders/day, need complex reporting queries (joins, aggregations by date range and product category), and our team is comfortable with SQL. Should we use DynamoDB or Aurora PostgreSQL?

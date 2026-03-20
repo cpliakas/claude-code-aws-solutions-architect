@@ -1,0 +1,1 @@
+Our Lambda functions are exhausting RDS PostgreSQL connection limits during traffic spikes. We sometimes see "too many connections" errors. The Lambda function connects directly using psycopg2 and we have concurrency set to 100. What's the recommended solution with the least amount of code changes?

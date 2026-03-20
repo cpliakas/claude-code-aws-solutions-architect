@@ -1,0 +1,1 @@
+We have a REST API that handles roughly 1,000 requests/day with occasional traffic spikes up to 10×. Each request takes about 200ms to process, dependencies are under 100MB, and cold starts under 2 seconds are acceptable. Should we use Lambda or ECS Fargate?

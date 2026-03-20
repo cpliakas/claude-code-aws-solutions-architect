@@ -1,0 +1,1 @@
+Can you estimate the monthly AWS cost for a serverless web application with: API Gateway HTTP API handling 500,000 requests/month, Lambda functions averaging 300ms and 256MB memory, DynamoDB on-demand with 1GB storage and roughly 1M read and 200K write requests/month, and CloudWatch Logs with 7-day retention? We're past the free tier.

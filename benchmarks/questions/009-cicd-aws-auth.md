@@ -1,0 +1,1 @@
+We're deploying to AWS from GitHub Actions using a long-lived IAM access key stored as a GitHub secret. Our security team flagged this. What's the recommended authentication approach for GitHub Actions deploying to AWS?

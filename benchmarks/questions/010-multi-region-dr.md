@@ -1,0 +1,1 @@
+We run a critical SaaS application on Aurora PostgreSQL (single region, us-east-1). Our SLA requires RPO of under 1 minute and RTO of under 5 minutes in the event of a regional failure. What's the most cost-effective architecture to meet these requirements?

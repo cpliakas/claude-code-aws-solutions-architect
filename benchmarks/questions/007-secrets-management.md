@@ -1,0 +1,1 @@
+We have database credentials hardcoded as environment variables in our Lambda function configuration. We know this is wrong. What's the right approach for managing database credentials in Lambda, and what's the migration path from where we are now?

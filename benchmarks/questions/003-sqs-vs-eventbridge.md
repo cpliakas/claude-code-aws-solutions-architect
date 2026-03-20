@@ -1,0 +1,1 @@
+We need to decouple our order processing from downstream services (inventory, shipping, notifications). Orders are produced by a single API and consumed by three separate services. Should we use SQS or EventBridge?

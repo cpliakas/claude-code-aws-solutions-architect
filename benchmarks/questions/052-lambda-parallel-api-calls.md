@@ -1,0 +1,1 @@
+We have a Lambda function that makes 5 sequential API calls to external services, each taking 200-500ms. Total function duration averages 1,800ms. The API calls are independent of each other. How can we reduce the function's average duration?

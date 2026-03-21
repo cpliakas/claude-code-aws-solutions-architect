@@ -1,0 +1,1 @@
+Our team is building a generative AI feature using Bedrock Claude. We need to log all prompts and responses for compliance, implement content filtering, and track per-user token usage. How do we implement these cross-cutting concerns without changing each API call?

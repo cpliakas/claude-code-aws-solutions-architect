@@ -1,0 +1,1 @@
+Our Redshift cluster runs 24/7 but is only actively queried during business hours (8am-6pm EST). We have ra3.4xlarge nodes and the cluster is idle about 65% of the time. What options do we have to reduce cost without significantly impacting query availability?

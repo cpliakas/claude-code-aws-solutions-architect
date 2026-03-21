@@ -1,0 +1,1 @@
+We have 500 Lambda functions across our organization and no consistent approach to log management. Logs are scattered across CloudWatch Log Groups with different retention policies (some never expire). Our CloudWatch bill for logs alone is $3,000/month. How do we get control of this?

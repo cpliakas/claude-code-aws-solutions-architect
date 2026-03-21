@@ -1,0 +1,1 @@
+We're running 50 EC2 instances (m5.xlarge) continuously for a steady-state batch processing workload. The instances run 24/7 and we expect to need them for at least 3 more years. We're currently on On-Demand pricing. What's the most cost-effective purchasing option, and how much could we realistically save?

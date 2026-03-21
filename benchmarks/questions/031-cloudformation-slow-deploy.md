@@ -1,0 +1,1 @@
+We have a CloudFormation stack that takes 45 minutes to deploy because it creates 200+ resources sequentially. Our team deploys 5-10 times per day and this is causing significant friction. How can we speed up CloudFormation deployments?

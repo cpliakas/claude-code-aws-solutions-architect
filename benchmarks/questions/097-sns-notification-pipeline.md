@@ -1,0 +1,1 @@
+Our application needs to send 10 million transactional notifications per day (push, email, SMS) based on user preferences. Notifications must be delivered within 30 seconds of the triggering event. What AWS services should we use for this notification pipeline?

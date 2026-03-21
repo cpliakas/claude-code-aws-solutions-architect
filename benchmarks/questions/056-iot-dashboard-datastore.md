@@ -1,0 +1,1 @@
+We need to build a near-real-time analytics dashboard showing aggregated metrics from 10,000 IoT sensors updating every 10 seconds. Each sensor sends 5 metrics per update. We need to query the last 24 hours of data with sub-second dashboard response times. What's the right data store?

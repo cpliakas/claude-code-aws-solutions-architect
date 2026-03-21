@@ -1,0 +1,1 @@
+We need to build a file processing system where files up to 10GB are uploaded by customers and must be processed within 2 hours. Processing is CPU-intensive (video transcoding). Customers upload about 100 files per day. What's the right compute choice — Lambda, EC2, or Batch?

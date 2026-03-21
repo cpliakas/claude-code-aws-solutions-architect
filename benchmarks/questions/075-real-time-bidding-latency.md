@@ -1,0 +1,1 @@
+We're building a real-time bidding platform that needs to process bid requests within 100ms end-to-end. Requests arrive at 50,000/second during peak hours. Each request requires a lookup against a dataset of 5M advertiser rules. What AWS architecture can meet these latency requirements?

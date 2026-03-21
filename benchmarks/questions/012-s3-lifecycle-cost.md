@@ -1,0 +1,1 @@
+We have an S3 bucket storing 200TB of application logs. About 5TB is accessed frequently in the first 30 days, access drops to near-zero after 90 days, and we need to retain logs for 7 years for compliance. We're currently storing everything in S3 Standard. How should we configure lifecycle policies to minimize storage costs?

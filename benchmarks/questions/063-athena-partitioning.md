@@ -1,0 +1,1 @@
+We're building a data lake on S3. Raw data arrives in JSON, we transform it to Parquet with Glue, and analysts query it with Athena. Athena queries are slow (45-90 seconds) even on small datasets because data isn't partitioned. How should we structure our data lake for query performance?

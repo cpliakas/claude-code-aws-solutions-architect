@@ -1,0 +1,1 @@
+Our SQS queue has 2 million messages that are 6 hours old and haven't been processed. Our consumer Lambda function is erroring out. We need to understand what's wrong without losing any messages. What's the diagnostic and recovery approach?

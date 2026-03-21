@@ -1,0 +1,1 @@
+We need to run a containerized batch job that processes 10,000 items daily. Each item takes 30 seconds to process and items are independent. The job runs once per night. We want to minimize cost and operational overhead. Should we use ECS Fargate, AWS Batch, or Lambda?

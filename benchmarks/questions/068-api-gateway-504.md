@@ -1,0 +1,1 @@
+We're seeing intermittent 504 Gateway Timeout errors on our API Gateway. The backend Lambda function logs show successful completions within 5 seconds. API Gateway timeout is set to 29 seconds. The errors happen about 1% of the time. What are the likely causes?

@@ -1,0 +1,1 @@
+We're designing a financial application that must maintain an audit trail of all data changes with tamper-evident logs. Regulators require we can prove logs haven't been altered. What AWS services provide cryptographically verifiable audit trails?

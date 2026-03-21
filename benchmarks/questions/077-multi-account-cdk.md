@@ -1,0 +1,1 @@
+We need to deploy the same CDK application to 30 AWS accounts in three organizational units. Each account needs slightly different configuration (VPC CIDR, instance sizes). How do we manage multi-account CDK deployments without duplicating code?

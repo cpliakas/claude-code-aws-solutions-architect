@@ -1,0 +1,1 @@
+We have a Lambda function that processes images uploaded to S3. Processing takes 45-90 seconds per image and we have bursts of up to 500 images arriving simultaneously. We're hitting Lambda's 15-minute timeout limit occasionally when downstream calls to a third-party API are slow. What should we do?

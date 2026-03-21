@@ -1,0 +1,1 @@
+We need to process a 5TB CSV file stored in S3 to compute aggregate statistics. The job runs once per week and the result is a small summary table. We want to minimize cost and don't need a persistent cluster. Should we use Glue, Athena, or EMR for this?

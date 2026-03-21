@@ -1,0 +1,1 @@
+Our CloudFront distribution is serving a React SPA with an API backend on ALB. Users in Southeast Asia are reporting 3-4 second page load times. Our origin is in us-east-1 and the static assets are cached, but API calls aren't cached and go all the way to the origin. What can we do to reduce latency for these users?

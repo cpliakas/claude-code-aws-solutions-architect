@@ -1,0 +1,1 @@
+Our AWS bill is $45,000/month and growing 20% monthly. We have no tagging strategy — only 30% of resources are tagged. Leadership wants cost allocation by product line and team. How do we implement cost governance retroactively and going forward?

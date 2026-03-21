@@ -1,0 +1,1 @@
+We have 15 AWS accounts across three business units and need consistent guardrails: no resources outside us-east-1 and eu-west-1, mandatory tagging with CostCenter and Environment, and prevention of public S3 buckets. We're not using AWS Organizations yet. What's the recommended approach?

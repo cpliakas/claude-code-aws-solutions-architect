@@ -1,0 +1,1 @@
+We're running a high-traffic website (1M requests/day) with a CloudFront distribution. The origin is an ALB with EC2 instances. We want to implement edge-side logic to redirect mobile users to a mobile subdomain without changing the origin. What's the recommended approach?

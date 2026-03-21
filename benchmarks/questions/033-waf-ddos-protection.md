@@ -1,0 +1,1 @@
+We have a public-facing web application behind ALB that has been getting scraped aggressively and is experiencing DDoS-like traffic from certain IP ranges. We're seeing 50,000 requests/minute from a single IP. What's the fastest way to block this and protect against future attacks?

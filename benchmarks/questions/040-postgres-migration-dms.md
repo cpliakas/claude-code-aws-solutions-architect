@@ -1,0 +1,1 @@
+We're migrating a PostgreSQL database (2TB, 500 active connections) from on-premises to AWS with a requirement of under 4 hours downtime. The database is in use 24/7. What migration approach and AWS services do you recommend?

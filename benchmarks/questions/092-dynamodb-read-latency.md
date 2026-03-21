@@ -1,0 +1,1 @@
+We're seeing high read latency (200-500ms p99) on our DynamoDB table during business hours. The table uses on-demand capacity and we have DAX enabled but DAX hit rate is only 20%. Most reads are for different items every request (low cache locality). What should we investigate?

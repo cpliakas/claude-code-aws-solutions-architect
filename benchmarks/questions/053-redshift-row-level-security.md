@@ -1,0 +1,1 @@
+We need to implement row-level security in our Redshift data warehouse so that regional sales managers can only query data for their own region. We have 50 analysts across 8 regions. What's the recommended approach?

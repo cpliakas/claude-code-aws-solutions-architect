@@ -1,0 +1,1 @@
+We have a single large VPC (10.0.0.0/8) that's running out of IP space in several subnets. Adding new subnets requires CIDR allocation planning across the organization. We have 8 VPCs total across 3 regions. How should we approach VPC CIDR management and address space planning?

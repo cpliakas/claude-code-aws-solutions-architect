@@ -1,0 +1,1 @@
+We're running a containerized application on ECS that needs to access secrets from Secrets Manager at startup. Currently, secrets are fetched inside the application code on startup. We want to inject them as environment variables without code changes. How do we do this with ECS task definitions?

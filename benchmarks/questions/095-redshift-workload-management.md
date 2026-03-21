@@ -1,0 +1,1 @@
+We're building a data warehouse on Redshift. Our analysts run long-running reports (2-4 hours) that compete with short interactive queries (seconds). Short queries are timing out waiting for resources. What Redshift features can we use to isolate workloads?

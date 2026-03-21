@@ -1,0 +1,1 @@
+We need to expose an internal REST API (running on EC2 in a private VPC) to 10 trusted partner companies. Partners connect via the public internet. We want to avoid putting the API on a public endpoint and prefer private connectivity. What's the recommended AWS networking architecture?

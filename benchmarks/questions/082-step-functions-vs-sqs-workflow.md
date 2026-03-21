@@ -1,0 +1,1 @@
+We have a multi-step workflow: user uploads a video → transcode to multiple resolutions → generate thumbnails → update database → send notification. Steps can fail independently and must be retried. The workflow should be auditable. Should we use Step Functions or SQS chaining?

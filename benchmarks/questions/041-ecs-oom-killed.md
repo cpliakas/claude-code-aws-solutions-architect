@@ -1,0 +1,1 @@
+Our ECS Fargate tasks are frequently getting OOMKilled. Each task is configured with 2 vCPU and 4GB memory. Container logs show memory usage peaks at 3.8GB. We have 50 tasks running at any time. Should we increase task memory, optimize the application, or both?

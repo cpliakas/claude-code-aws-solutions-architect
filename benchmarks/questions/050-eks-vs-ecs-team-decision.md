@@ -1,0 +1,1 @@
+Our application team wants to use managed Kubernetes (EKS) but our platform team only has ECS expertise. The workload is 20 microservices, no special Kubernetes features are needed. What factors should drive the decision between EKS and ECS for a team new to Kubernetes?

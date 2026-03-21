@@ -1,0 +1,1 @@
+We have a VPC in us-east-1 and need to connect it to our on-premises data center (50Mbps MPLS link). We need consistent, low-latency connectivity for a database replication stream that transfers about 10GB/day. Should we use Direct Connect or Site-to-Site VPN?

@@ -1,0 +1,1 @@
+We have GuardDuty enabled across 50 accounts and we're getting 200 findings per day. Most are low-severity noise (failed SSH from IP scanners). Our security team can only investigate 20 findings per day. How do we reduce noise and prioritize actionable findings?

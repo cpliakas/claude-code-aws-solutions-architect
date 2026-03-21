@@ -1,0 +1,1 @@
+We have a DynamoDB table with 500GB of data. Hot items (top 0.1% by access frequency) account for 80% of read traffic, causing ProvisionedThroughputExceededException errors despite adequate WCU/RCU provisioning. How do we solve the hot partition problem?

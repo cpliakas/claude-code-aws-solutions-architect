@@ -1,0 +1,1 @@
+We have a Kinesis Data Stream with 10 shards processing 50,000 events/second. Our Lambda consumer is processing at 40,000 events/second and we're seeing the consumer fall behind (iterator age growing). We don't want to increase shards. What are our options to increase throughput?

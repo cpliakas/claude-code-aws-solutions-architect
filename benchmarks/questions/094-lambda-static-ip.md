@@ -1,0 +1,1 @@
+We have a legacy application that uses a static IP address to connect to a third-party API that whitelists IPs. The app runs on Lambda and Lambda IPs are not static. We need to give the Lambda function a predictable outbound IP. What's the simplest solution?

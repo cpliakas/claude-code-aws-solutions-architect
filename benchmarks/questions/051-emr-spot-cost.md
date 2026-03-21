@@ -1,0 +1,1 @@
+We're running a Spark cluster on EMR for daily ETL jobs (6-hour jobs, 10 r5.4xlarge core nodes). The cluster is idle 18 hours per day. Our monthly EMR cost is $8,000. What's the most impactful cost optimization we can make?

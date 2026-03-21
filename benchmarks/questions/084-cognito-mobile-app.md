@@ -1,0 +1,1 @@
+We're building a B2C mobile app with user authentication. We expect 100,000 MAU and need to support sign-in with Apple, Google, and email/password. We need user profile storage and the ability to run server-side functions on auth events. What's the recommended AWS architecture?

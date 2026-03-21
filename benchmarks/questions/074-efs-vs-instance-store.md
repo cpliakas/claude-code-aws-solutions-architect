@@ -1,0 +1,1 @@
+Our application generates 10GB of temporary files per day that need to be shared between EC2 instances in the same AZ. Files are created, processed within 1 hour, and then deleted. We're currently using EFS but want to reduce latency and cost. What's a better option?

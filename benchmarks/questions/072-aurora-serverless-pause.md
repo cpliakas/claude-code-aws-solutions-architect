@@ -1,0 +1,1 @@
+We're running Aurora Serverless v1 for a development environment database that's used intermittently. We're being charged for the database even when no queries are running. We'd like it to pause when idle. Aurora Serverless v1 is configured to pause after 5 minutes but it's not pausing. What should we check?

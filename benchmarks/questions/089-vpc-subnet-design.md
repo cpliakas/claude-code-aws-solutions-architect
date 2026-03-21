@@ -1,0 +1,1 @@
+We're designing a VPC for a new production workload. We need public subnets (web tier), private subnets (app tier), and isolated subnets (database tier). We operate in us-east-1 and need high availability. How many subnets do we create and what CIDR ranges do we allocate?

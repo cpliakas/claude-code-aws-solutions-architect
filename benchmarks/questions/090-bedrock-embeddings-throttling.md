@@ -1,0 +1,1 @@
+We have a Bedrock application that generates embeddings for a RAG pipeline. We're using Titan Embeddings on ~1M documents (average 500 tokens each). The one-time embedding job is taking 3 days to complete due to throttling. How do we speed this up within Bedrock's limits?

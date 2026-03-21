@@ -1,0 +1,1 @@
+Our application sends transactional emails (order confirmations, password resets) via SES. We're seeing about a 5% bounce rate and SES has put our account into the sandbox. What are the best practices for improving email deliverability and getting out of SES sandbox restrictions?

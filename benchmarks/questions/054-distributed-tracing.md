@@ -1,0 +1,1 @@
+Our application has a microservices architecture with 30 services on ECS. Debugging distributed traces is difficult because we can't correlate logs across services for a single user request. What's the recommended observability architecture for distributed tracing?

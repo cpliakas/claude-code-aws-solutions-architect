@@ -1,0 +1,1 @@
+Our monolithic Java application on a single r5.4xlarge EC2 instance uses 100% CPU during peak hours (9am-11am and 1pm-3pm daily). The rest of the day CPU is under 20%. The app is stateful and can't be horizontally scaled without significant rework. What are our options in the short term?

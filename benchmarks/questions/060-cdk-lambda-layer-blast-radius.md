@@ -1,0 +1,1 @@
+Our CDK application deploys a stack with 150 Lambda functions. Every time we update a shared Lambda Layer, CDK replaces all 150 functions even when only the layer changed. Deployments take 30 minutes. How can we reduce the blast radius of layer updates?

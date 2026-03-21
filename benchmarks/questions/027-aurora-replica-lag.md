@@ -1,0 +1,1 @@
+Our Aurora MySQL cluster has a single writer and two read replicas. During a recent peak, we saw replica lag of up to 45 seconds, causing our application to read stale data. The write workload is about 5,000 writes/second. What options do we have to reduce replication lag?

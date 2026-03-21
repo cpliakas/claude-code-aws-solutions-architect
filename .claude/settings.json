@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "/Users/cpliakas/Workspace/baton/baton hook notification",
+            "command": "/Users/cpliakas/Workspace/baton/baton hook notification --listen-addr :22866",
             "timeout": 3
           }
         ]
@@ -18,7 +18,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "/Users/cpliakas/Workspace/baton/baton hook post-tool-use",
+            "command": "/Users/cpliakas/Workspace/baton/baton hook post-tool-use --listen-addr :22866",
             "timeout": 3
           }
         ]
@@ -30,7 +30,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "/Users/cpliakas/Workspace/baton/baton hook pre-tool-use",
+            "command": "/Users/cpliakas/Workspace/baton/baton hook pre-tool-use --listen-addr :22866",
             "timeout": 3
           }
         ]
@@ -42,7 +42,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "/Users/cpliakas/Workspace/baton/baton hook stop",
+            "command": "/Users/cpliakas/Workspace/baton/baton hook stop --listen-addr :22866",
             "timeout": 10
           }
         ]

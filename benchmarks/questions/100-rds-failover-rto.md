@@ -1,0 +1,1 @@
+We need to implement automatic failover for an RDS MySQL database with an RTO under 60 seconds. We have a Multi-AZ deployment but failover currently takes 2-3 minutes in our tests. What can we do to get closer to the 60-second target?

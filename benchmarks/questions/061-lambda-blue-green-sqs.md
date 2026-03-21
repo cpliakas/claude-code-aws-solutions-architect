@@ -1,0 +1,1 @@
+We need to implement blue/green deployments for a Lambda function that processes SQS messages. The function has a 5-minute processing timeout. We want to shift traffic gradually (10% → 50% → 100%) and automatically rollback if error rates exceed 1%. What's the recommended approach?

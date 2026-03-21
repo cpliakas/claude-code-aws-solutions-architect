@@ -1,0 +1,1 @@
+We need to share a private VPC endpoint for an internal service between 5 AWS accounts in the same organization. We want consumers to access the service without peering the VPCs. What's the correct architecture using AWS PrivateLink?

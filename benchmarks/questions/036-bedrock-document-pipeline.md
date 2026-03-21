@@ -1,0 +1,1 @@
+We're building a document processing pipeline where users upload PDFs, we extract text with Textract, run the text through a Bedrock LLM for summarization, and store results in DynamoDB. Uploads are unpredictable — anywhere from 10 to 10,000 per hour. What's the best architecture for this pipeline?

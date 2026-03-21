@@ -1,0 +1,1 @@
+We have a REST API on API Gateway + Lambda that's being called by a mobile app. We're seeing 30% of requests fail with 429 throttling errors during marketing campaigns. Our Lambda concurrency limit is set to 200. How should we architect this to handle traffic spikes more gracefully?

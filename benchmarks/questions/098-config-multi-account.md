@@ -1,0 +1,1 @@
+We're using AWS Config to track resource compliance but Config is enabled in only 15 of our 40 AWS accounts. We need to ensure Config is enabled in all accounts and all regions with consistent aggregation to a central account. What's the most scalable approach?

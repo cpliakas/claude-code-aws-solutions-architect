@@ -1,0 +1,1 @@
+We need to give a third-party vendor read-only access to specific S3 buckets in our account. The vendor is on AWS but in a different account. We don't want to create IAM users with long-lived credentials. What's the recommended approach?

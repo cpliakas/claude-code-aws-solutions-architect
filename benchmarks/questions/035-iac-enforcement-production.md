@@ -1,0 +1,1 @@
+Our team uses separate AWS accounts for dev, staging, and production. Developers are deploying infrastructure changes manually in production using the AWS console. We need to enforce infrastructure-as-code for all production changes and prevent console-based deployments. How do we implement this?

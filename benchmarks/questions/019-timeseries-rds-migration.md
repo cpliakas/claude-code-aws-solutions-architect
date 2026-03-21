@@ -1,0 +1,1 @@
+Our application writes about 1GB/hour of time-series metrics to RDS MySQL. Query performance has degraded over 18 months as the table has grown to 500GB. Most queries filter by timestamp and device_id. We can tolerate up to 60 seconds of data latency. Should we migrate to a purpose-built time-series database?

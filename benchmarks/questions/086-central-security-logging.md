@@ -1,0 +1,1 @@
+We need to implement cross-account logging where all AWS accounts in our organization ship CloudTrail, VPC Flow Logs, and Config logs to a central security account. The log data must be immutable and retained for 5 years. What's the recommended architecture?

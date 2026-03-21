@@ -1,0 +1,1 @@
+Our EKS cluster runs 20 microservices with highly variable traffic. Some services spike during business hours, others run constant background jobs. We're using managed node groups with On-Demand m5.large instances and our CPU utilization averages around 15%. How should we right-size and optimize this cluster for cost?

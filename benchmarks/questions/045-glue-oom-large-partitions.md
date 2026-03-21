@@ -1,0 +1,1 @@
+Our Glue ETL jobs are failing intermittently with out-of-memory errors when processing large partitions in our S3 data lake (some partitions are 50GB+). The jobs use Spark with 10 G.1X workers. How should we address this?

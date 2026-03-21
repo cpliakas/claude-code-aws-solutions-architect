@@ -1,0 +1,1 @@
+We have a compliance requirement that all S3 buckets must have server-side encryption enabled, versioning enabled, and public access blocked. We have 200 S3 buckets across 30 AWS accounts. How do we audit compliance and auto-remediate non-compliant buckets?

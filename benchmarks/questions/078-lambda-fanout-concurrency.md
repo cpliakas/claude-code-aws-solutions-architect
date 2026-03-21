@@ -1,0 +1,1 @@
+We have a Lambda function that fans out work to 1,000 child Lambda functions using parallel invocations. We're hitting Lambda concurrency limits in the account (default 1,000). How should we architect this to avoid hitting concurrency limits?

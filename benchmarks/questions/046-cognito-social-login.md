@@ -1,0 +1,1 @@
+We're building a serverless REST API that needs to authenticate users. We have 50,000 registered users and need to support social login (Google, Facebook) in addition to username/password. We need JWT tokens with a 1-hour expiry. What's the recommended AWS-native approach?

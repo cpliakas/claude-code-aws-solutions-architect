@@ -1,0 +1,1 @@
+Our team manages infrastructure with Terraform but wants to migrate to CDK for better integration with our Python codebase. We have 40 existing Terraform stacks managing production infrastructure. How do we migrate safely without downtime?

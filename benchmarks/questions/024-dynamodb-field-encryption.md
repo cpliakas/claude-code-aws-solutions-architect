@@ -1,0 +1,1 @@
+We need to implement field-level encryption for PII data (SSN, credit card numbers) stored in DynamoDB. The data must be encrypted before it's written to DynamoDB, and only specific IAM roles should be able to decrypt it. What's the recommended approach using AWS-native services?

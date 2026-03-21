@@ -1,0 +1,1 @@
+We need to migrate a 10TB Oracle database to AWS. The application team wants to modernize to PostgreSQL but the DBA team says the stored procedures and Oracle-specific functions will take 6 months to rewrite. What migration path do you recommend to minimize risk and downtime?

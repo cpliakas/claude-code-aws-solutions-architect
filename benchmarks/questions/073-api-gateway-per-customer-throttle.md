@@ -1,0 +1,1 @@
+We need to implement API rate limiting on a per-customer basis for our SaaS API. Enterprise customers get 10,000 requests/minute, standard customers get 1,000 requests/minute. We have 500 customers. What's the most scalable approach using API Gateway?

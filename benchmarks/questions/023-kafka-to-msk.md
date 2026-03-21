@@ -1,0 +1,1 @@
+We run Apache Kafka on EC2 (3 broker cluster, r5.2xlarge) for our event streaming pipeline. The cluster requires regular patching, broker replacement, and we had a data loss incident last year due to misconfigured replication. Our team spends about 30% of their time on Kafka operations. Should we migrate to MSK?

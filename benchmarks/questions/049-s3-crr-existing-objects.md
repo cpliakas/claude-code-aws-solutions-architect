@@ -1,0 +1,1 @@
+We need to replicate an S3 bucket (5TB, 1M objects) from us-east-1 to eu-west-1 for compliance. Existing objects haven't been replicated — only new objects will replicate with standard Cross-Region Replication. How do we handle the existing objects?

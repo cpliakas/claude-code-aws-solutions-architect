@@ -1,0 +1,1 @@
+Our RDS MySQL database is 800GB and growing 50GB/month. We're running out of storage on the gp2 volume. Enabling storage autoscaling is blocked by a company policy. We need to increase IOPS for a write-heavy workload. What EBS volume type should we migrate to and what's the process?

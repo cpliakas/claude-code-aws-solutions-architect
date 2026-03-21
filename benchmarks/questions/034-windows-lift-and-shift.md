@@ -1,0 +1,1 @@
+We're planning a lift-and-shift migration of a Windows Server 2016 application to AWS. The app requires a persistent network share for file storage, and the vendor doesn't support containerization. The app is licensed per-core. What's the recommended EC2 instance type and storage configuration?

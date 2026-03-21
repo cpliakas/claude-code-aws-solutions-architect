@@ -1,0 +1,1 @@
+We need to build a data pipeline that ingests 50,000 events/second from IoT devices, enriches each event with reference data from a database, and delivers the enriched data to S3 for analytics within 60 seconds. What AWS services should we use?

@@ -1,0 +1,1 @@
+We need to implement network traffic inspection for all east-west traffic between VPCs in our AWS Organization. We have 20 VPCs across 3 regions. Our security team wants to run Suricata IDS rules. What's the recommended architecture?

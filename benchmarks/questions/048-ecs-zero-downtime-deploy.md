@@ -1,0 +1,1 @@
+Our CodePipeline deploys to ECS but each deployment causes a 10-15 second outage because the old task is stopped before the new one is healthy. We're using rolling deployment. How do we achieve zero-downtime deployments?

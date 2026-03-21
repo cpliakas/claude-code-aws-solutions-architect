@@ -1,0 +1,1 @@
+We're deploying a machine learning inference service using SageMaker real-time endpoints. The model is large (10GB) and cold start time is 8 minutes. We have highly variable traffic with quiet periods of several hours. How do we balance cost and availability?

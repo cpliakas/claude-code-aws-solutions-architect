@@ -1,0 +1,1 @@
+We have a CloudFormation stack that was manually modified in the AWS console (someone added an EC2 security group rule directly). The stack is now in drift. We want to bring the stack back under IaC control without destroying and recreating resources. What's the safest approach?

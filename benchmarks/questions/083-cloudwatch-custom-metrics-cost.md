@@ -1,0 +1,1 @@
+Our CloudWatch bill is $12,000/month, mostly from custom metrics published by 200 EC2 instances (100 metrics per instance, 1-minute intervals). We use these metrics for autoscaling and dashboards. How can we reduce this cost without losing autoscaling capability?

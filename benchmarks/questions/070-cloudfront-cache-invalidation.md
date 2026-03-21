@@ -1,0 +1,1 @@
+We have a web application with a React frontend on S3/CloudFront and an API on API Gateway. Users report that after a deployment, they see a mix of old and new UI because CloudFront is serving cached old assets. How do we implement cache invalidation as part of our deployment process?

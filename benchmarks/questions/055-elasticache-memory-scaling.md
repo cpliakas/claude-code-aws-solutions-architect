@@ -1,0 +1,1 @@
+We're storing 50GB of session data in ElastiCache Redis (cache.r6g.xlarge). The cluster is at 90% memory utilization and we're seeing evictions. We can either scale up the instance or add a read replica. Traffic is 80% reads. What should we do?

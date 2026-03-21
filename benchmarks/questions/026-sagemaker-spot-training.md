@@ -1,0 +1,1 @@
+We're running SageMaker training jobs on ml.p3.2xlarge instances that take 6-8 hours each. We run about 20 jobs per week and the jobs are fault-tolerant with checkpointing. Our current monthly SageMaker training cost is around $4,000. How can we reduce this cost?

@@ -1,0 +1,1 @@
+Our EC2-based application auto scales using a CPU-based scaling policy. During high traffic, instances are added but the new instances take 8 minutes to initialize (Java app with slow startup) before serving traffic. Users experience degraded performance during scale-out events. How do we fix this?

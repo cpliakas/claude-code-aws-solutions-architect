@@ -1,0 +1,1 @@
+We need to transfer approximately 80TB of on-premises data to S3 over the next 4 weeks. Our internet connection is 1Gbps but is shared with production traffic and we can only use about 200Mbps for data transfer. What's the fastest and most reliable transfer method?

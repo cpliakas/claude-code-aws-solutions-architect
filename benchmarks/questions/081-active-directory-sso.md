@@ -1,0 +1,1 @@
+We're migrating from on-premises Active Directory to AWS. We need SSO for AWS console access, federation with our on-premises AD, and integration with our existing SAML applications. What AWS services do we use and in what order do we set them up?

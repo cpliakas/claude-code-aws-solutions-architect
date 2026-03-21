@@ -1,0 +1,1 @@
+We're building a real-time leaderboard for a mobile game with 500,000 active users. We need sub-10ms read latency for the top 100 players, and leaderboards update every 5 seconds. We considered DynamoDB but are worried about hot partition issues with a single leaderboard key. What's the right architecture?

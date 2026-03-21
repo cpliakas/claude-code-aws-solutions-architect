@@ -1,0 +1,1 @@
+We need to implement a disaster recovery strategy for a critical application that currently runs in a single AZ on EC2 with EBS volumes. Our business requires an RTO of under 30 minutes and RPO of under 15 minutes. What's the minimum viable DR architecture within a single region?

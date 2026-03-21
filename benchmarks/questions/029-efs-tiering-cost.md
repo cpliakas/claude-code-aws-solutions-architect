@@ -1,0 +1,1 @@
+Our application stores user-uploaded files on EFS mounted to EC2 instances in an Auto Scaling Group. We're storing about 10TB of files and paying significant EFS costs. About 80% of files are accessed only during the first week after upload, then rarely touched. How can we reduce storage costs while keeping the application architecture mostly intact?

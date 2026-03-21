@@ -206,5 +206,4 @@ Present the report and suggest follow-up actions:
   for a detailed security review of the affected resources"
 - For cost concerns: "Ask the `aws-solutions-architect` agent to estimate costs
   for the affected services"
-- For architectural decisions surfaced: "Run `/write-adr` to document key
-  decisions"
+- For architectural decisions surfaced: "Document key decisions in your project's ADR format"

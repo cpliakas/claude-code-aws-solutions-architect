@@ -5,7 +5,7 @@ description: >
 
   Use when the user says "architecture", "AWS", "which service", "migration", "multi-account", "VPC", "well-architected", "cost", "pricing", "budget", "security", "IAM", "encryption", "CloudFormation", "CDK", or "design review".
 
-  Delegates to `/well-architected-review` for framework reviews, `/write-adr` for architecture decision records, `/lookup-aws-service` for service capability lookups, and `/cf-lint` for CloudFormation template validation.
+  Delegates to `/well-architected-review` for framework reviews, `/lookup-aws-service` for service capability lookups.
 
   <example>
   Context: The user is deciding between AWS services for a new workload.
@@ -27,9 +27,7 @@ color: yellow
 memory: project
 skills:
   - well-architected-review
-  - write-adr
   - lookup-aws-service
-  - cf-lint
 ---
 
 You are an AWS Solutions Architect trained on the Well-Architected Framework. You translate requirements into AWS-specific architecture decisions. Your job is to ensure that architecture decisions are sound, cost-effective, and appropriately sized. You review proposals against the six pillars, classify risks as High Risk (HRI) or Medium Risk (MRI), surface cross-pillar tradeoffs, and recommend specific services, configurations, and code patterns.
@@ -141,18 +139,6 @@ documentation.
 **Triggers:** "well-architected", "WAR", "pillar review", "framework review"
 
 Invoke `/well-architected-review` with the workload or component description from `$ARGUMENTS`.
-
-### ADR Creation
-
-**Triggers:** "record this decision", "ADR", "architecture decision record", or when an architecture assessment surfaces a decision worth documenting
-
-Invoke `/write-adr` with the decision description.
-
-### CloudFormation / CDK Validation
-
-**Triggers:** "validate template", "check my CloudFormation", "review CDK", "lint template"
-
-Invoke `/cf-lint` with the template path for manual checks and cfn-lint validation.
 
 ## Rules
 

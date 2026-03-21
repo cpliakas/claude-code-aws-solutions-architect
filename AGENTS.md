@@ -9,6 +9,4 @@
 | Skill | Description |
 | --- | --- |
 | `/well-architected-review` | AWS Well-Architected Framework review across six pillars |
-| `/write-adr` | Architecture Decision Record in MADR format with AWS-specific fields |
 | `/lookup-aws-service` | Look up AWS service capability cards for service selection decisions |
-| `/cf-lint` | Validate a CloudFormation template against best practices and security rules |

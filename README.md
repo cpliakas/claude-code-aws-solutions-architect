@@ -15,7 +15,6 @@ A Claude Code plugin that provides an **AWS Solutions Architect agent** for clou
 | Skill | Description |
 | --- | --- |
 | `/well-architected-review` | Framework review across all six Well-Architected pillars |
-| `/lookup-aws-service` | Curated capability cards for AWS services: when to use, when not to, pricing, and common misconceptions |
 
 ### Bundled MCP Server
 
@@ -45,12 +44,6 @@ The agent evaluates both services against your access patterns, scaling needs, c
 > `@agents/aws-solutions-architect Can you review our architecture against the Well-Architected Framework?`
 
 The agent invokes `/well-architected-review`, scanning your infrastructure code and evaluating the workload across all six pillars. Produces a structured report with prioritized recommendations.
-
-### Look Up a Service You're Not Sure About
-
-> `/lookup-aws-service category:storage`
-
-Returns capability cards for all storage services — when to use each one, when not to, pricing summary, and common misconceptions. Useful before making service selection decisions.
 
 ### Estimate Costs for a New Architecture
 
@@ -92,20 +85,7 @@ claude-code-aws-solutions-architect/
 │   ├── run.sh
 │   └── questions/
 ├── skills/
-│   ├── well-architected-review/SKILL.md
-│   └── lookup-aws-service/
-│       ├── SKILL.md
-│       └── data/
-│           ├── analytics.json
-│           ├── compute.json
-│           ├── database.json
-│           ├── management.json
-│           ├── messaging-integration.json
-│           ├── migration.json
-│           ├── ml.json
-│           ├── networking.json
-│           ├── security-identity.json
-│           └── storage.json
+│   └── well-architected-review/SKILL.md
 ├── AGENTS.md
 ├── CLAUDE.md
 ├── README.md

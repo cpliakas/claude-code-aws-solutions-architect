@@ -9,4 +9,3 @@
 | Skill | Description |
 | --- | --- |
 | `/well-architected-review` | AWS Well-Architected Framework review across six pillars |
-| `/lookup-aws-service` | Look up AWS service capability cards for service selection decisions |

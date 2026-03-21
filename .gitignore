@@ -1,5 +1,6 @@
-# Claude Code
-.claude/
+# Claude Code (project-specific, not shared)
+.claude/agent-memory/
+.claude/settings.local.json
 
 # OS
 .DS_Store
@@ -11,9 +12,6 @@ node_modules/
 __pycache__/
 *.pyc
 .venv/
-
-# Agent memory (project-specific, not shared)
-.claude/agent-memory/
 
 # Benchmark results (generated locally, not shared)
 benchmarks/results/*/

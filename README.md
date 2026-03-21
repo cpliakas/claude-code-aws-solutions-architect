@@ -88,6 +88,9 @@ claude-code-aws-solutions-architect/
 ├── .mcp.json
 ├── agents/
 │   └── aws-solutions-architect.md
+├── benchmarks/
+│   ├── run.sh
+│   └── questions/
 ├── skills/
 │   ├── well-architected-review/SKILL.md
 │   └── lookup-aws-service/
@@ -105,8 +108,8 @@ claude-code-aws-solutions-architect/
 │           └── storage.json
 ├── hooks/
 │   └── markdownlint-check.sh
-├── CLAUDE.md
 ├── AGENTS.md
+├── CLAUDE.md
 ├── README.md
 └── LICENSE
 ```

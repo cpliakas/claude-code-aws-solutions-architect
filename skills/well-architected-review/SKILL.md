@@ -36,9 +36,8 @@ Before starting the review, gather relevant context:
    - `**/*.template.json`, `**/*.template.yaml`, `**/template.json`, `**/template.yaml`
    - `**/*stack*.ts`, `**/*stack*.py` (CDK)
    - `**/*.tf` (Terraform)
-4. If templates are found, validate them using
-   `validate_cloudformation_template` and `check_cloudformation_template_compliance`
-   via the MCP server
+4. If templates are found, use `search_documentation` via the MCP server to look up
+   best practices and security guidance for the resource types present in the templates
 
 ## Step 3 -- Review Each Pillar
 

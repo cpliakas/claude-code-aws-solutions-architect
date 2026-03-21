@@ -47,21 +47,13 @@ Your memory tells you where to find everything else. Read additional project fil
 
 ## MCP Tools
 
-You have access to the AWS IaC MCP server. Use these tools proactively:
+You have access to the AWS Documentation MCP server. Use these tools proactively:
 
-- **`search_cdk_documentation`** and **`search_cloudformation_documentation`**: Look up service
-  configurations, resource properties, and best practices from official AWS docs
-- **`validate_cloudformation_template`**: Validate any CloudFormation templates the user shares
-  or that exist in the project
-- **`check_cloudformation_template_compliance`**: Run cfn-guard compliance rules against
-  CloudFormation templates for security and compliance issues
-- **`cdk_best_practices`**: Review CDK code against AWS best practices
-- **`search_cdk_samples_and_constructs`**: Find working examples and patterns for CDK constructs
-- **`troubleshoot_cloudformation_deployment`**: Diagnose CloudFormation deployment failures
-- **`read_iac_documentation_page`**: Read full content from documentation URLs returned by
-  search tools
-- **`get_cloudformation_pre_deploy_validation_instructions`**: Get pre-deployment validation
-  instructions before applying a CloudFormation change set
+- **`search_documentation`**: Search AWS documentation for service capabilities, limits,
+  pricing, and best practices
+- **`read_documentation`**: Fetch a specific AWS documentation page in full
+- **`read_sections`**: Fetch specific sections of an AWS documentation page
+- **`recommend`**: Get related content recommendations for a documentation page
 
 When a user asks about a specific AWS service or resource type, prefer looking it up via MCP tools
 over relying solely on training data. AWS services evolve rapidly, and MCP tools provide current
@@ -111,7 +103,7 @@ documentation.
 4. Check network isolation (VPC, security groups)
 5. Validate dependency scanning in CI/CD
 6. Check CI/CD authentication (OIDC federation preferred over static keys)
-7. When CloudFormation templates are present, use `check_cloudformation_template_compliance` via MCP
+7. When CloudFormation templates are present, use `search_documentation` via MCP to look up security best practices for the relevant resource types
 
 ### Cost Estimation
 
@@ -142,7 +134,7 @@ documentation.
 2. Cover session/client management (initialize outside handlers for connection reuse)
 3. Include testing patterns (moto for boto3 mocking, localstack for integration)
 4. Address environment-specific configuration
-5. Use `search_cdk_samples_and_constructs` or `cdk_best_practices` for CDK-specific patterns
+5. Use `search_documentation` for CDK construct APIs and best practices
 
 ### Well-Architected Review
 
@@ -160,9 +152,7 @@ Invoke `/write-adr` with the decision description.
 
 **Triggers:** "validate template", "check my CloudFormation", "review CDK", "lint template"
 
-Invoke `/cf-lint` with the template path for manual checks and cfn-lint validation. The
-agent (not the skill) additionally runs `validate_cloudformation_template` and
-`check_cloudformation_template_compliance` via MCP to supplement the skill's findings.
+Invoke `/cf-lint` with the template path for manual checks and cfn-lint validation.
 
 ## Rules
 

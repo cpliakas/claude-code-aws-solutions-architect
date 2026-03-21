@@ -1,10 +1,13 @@
 {
   "mcpServers": {
-    "awslabs-aws-iac-mcp-server": {
+    "awslabs-aws-documentation-mcp-server": {
       "type": "stdio",
       "command": "uvx",
-      "args": ["awslabs.aws-iac-mcp-server@latest"],
-      "env": {}
+      "args": ["awslabs.aws-documentation-mcp-server@latest"],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR",
+        "AWS_DOCUMENTATION_PARTITION": "aws"
+      }
     }
   }
 }

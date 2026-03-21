@@ -36,18 +36,14 @@ A Claude Code plugin providing an AWS Solutions Architect agent for cloud archit
 
 ### MCP Server Usage
 
-This plugin bundles the `awslabs.aws-iac-mcp-server` package (registered in `.mcp.json` as `awslabs-aws-iac-mcp-server`) via `uvx`. Agents should use the following MCP tools when relevant:
+This plugin bundles the `awslabs.aws-documentation-mcp-server` package (registered in `.mcp.json` as `awslabs-aws-documentation-mcp-server`) via `uvx`. Agents should use the following MCP tools when relevant:
 
-- `validate_cloudformation_template`: Validate CloudFormation template syntax and resource properties
-- `check_cloudformation_template_compliance`: Run cfn-guard compliance rules against templates
-- `search_cdk_documentation`: Look up CDK construct APIs and official documentation
-- `search_cdk_samples_and_constructs`: Find working CDK code examples and patterns
-- `search_cloudformation_documentation`: Look up CloudFormation resource types and template syntax
-- `cdk_best_practices`: Review or generate CDK code against best practices
-- `read_iac_documentation_page`: Read full content from documentation URLs returned by search tools
-- `troubleshoot_cloudformation_deployment`: Diagnose CloudFormation deployment failures
+- `search_documentation`: Search AWS documentation for service capabilities, limits, pricing, and best practices
+- `read_documentation`: Fetch a specific AWS documentation page in full
+- `read_sections`: Fetch specific sections of an AWS documentation page
+- `recommend`: Get related content recommendations for a documentation page
 
-Agents should use these tools proactively when the user's question involves IaC templates, CDK constructs, or CloudFormation resources rather than relying solely on training data.
+Agents should use these tools proactively when the user's question involves AWS service capabilities, configurations, or best practices rather than relying solely on training data.
 
 ### Memory Paths
 

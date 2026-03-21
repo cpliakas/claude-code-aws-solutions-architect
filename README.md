@@ -106,8 +106,6 @@ claude-code-aws-solutions-architect/
 │           ├── networking.json
 │           ├── security-identity.json
 │           └── storage.json
-├── hooks/
-│   └── markdownlint-check.sh
 ├── AGENTS.md
 ├── CLAUDE.md
 ├── README.md

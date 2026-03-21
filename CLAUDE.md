@@ -4,10 +4,6 @@ A Claude Code plugin providing an AWS Solutions Architect agent for cloud archit
 
 ## Authoring Conventions
 
-### Markdown Body
-
-- Always add a blank line between a heading (or bold-text header like `**Triggers:**`) and the following list or paragraph. Omitting the blank line violates MD022/MD032 and can cause rendering issues.
-
 ### Agents
 
 - One markdown file per agent in `agents/`

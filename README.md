@@ -1,5 +1,17 @@
 # AWS Solutions Architect
 
+> **Deprecated.** This repository is no longer maintained. Deploy on AWS,
+> available in the Anthropic plugin marketplace, now covers architecture
+> recommendations, cost estimation, and security review, plus infrastructure
+> generation and deployment execution that this project never had. Install
+> it and use it going forward: https://claude.com/plugins/deploy-on-aws
+>
+> One gap to know about: Deploy on AWS validates against AWS best practices
+> as part of its deployment flow, but it doesn't expose a standalone
+> six-pillar Well-Architected review the way `/well-architected-review` did
+> here. If you relied on that specific workflow, flag it so we can find or
+> build a replacement before this repo is archived.
+
 A Claude Code plugin that provides an **AWS Solutions Architect agent** for cloud architecture guidance. While implementation-focused plugins help you write code, this one helps you make the architectural decisions that shape your AWS infrastructure: service selection, cost optimization, security review, migration strategy, and Well-Architected alignment.
 
 ## What's Included

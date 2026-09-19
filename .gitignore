@@ -15,6 +15,3 @@ __pycache__/
 
 # Benchmark results (generated locally, not shared)
 benchmarks/results/*/
-
-# Baton
-.baton/
